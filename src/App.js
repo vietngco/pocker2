@@ -1,10 +1,10 @@
 import React from 'react'
-import Playing from './component/MainPage'
+import MainPage from './component/MainPage'
 
 function App() {
   return (
     <div className="App">
-      <Playing/>
+      <MainPage/>
     </div>
   );
 }

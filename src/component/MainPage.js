@@ -8,12 +8,11 @@ import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 import PlayerList from './PlayerList';
 import { useDispatch, useSelector } from 'react-redux';
-import { clearLocalStorage, PLAYERLIST, status, TABINDEX, writeToLocalStorage } from './util';
+import { clearLocalStorage, status, writeToLocalStorage } from './util';
 import { initPlayerState, addPlayer } from '../store/playerListReducer';
 import AddIcon from '@mui/icons-material/Add';
 
-import { isEmpty, isNil } from 'lodash'
-import { Alert, Button, ButtonGroup, IconButton, Paper, TextField, Typography } from '@mui/material';
+import { Alert, ButtonGroup, IconButton, Paper, TextField } from '@mui/material';
 import Popup from './Popup';
 import { useTabIndex } from './useTabIndex';
 
